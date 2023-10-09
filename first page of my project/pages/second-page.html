@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main-style.css" >
+    <link rel="stylesheet" href="../css/second-page-style.css" >
+
+    <title>Document</title>
+</head>
+<body>
+   <nav>
+    <ul>
+        <li><a href="../index.html">الرئيسية </a></li>
+        <li><a href="second-page.html">تسجيل الدخول</a></li>
+        <li><a href="Third-page.html">تقييمك للموقع</a></li>
+        <li><a href="#About">عن المطور</a></li> 
+    </ul>
+   </nav>
+   <header class="header2">
+    <h1><span class="headerspan">تسجيل</span> الدخول</h1>
+</header>
+   <main class="cmain">
+        <button type="button" onclick="alert(console.log('wellcome'))">لدي حساب بالفعل</button><hr>
+        <article id="form">
+            <form action="" method="post" enctype="multipart/form-data"  autocomplete="off" title="these is all input inside of this form">
+                <fieldset><legend>تسجيل حساب جديد</legend>
+                    <label for="text" >الأسم:</label><input type="text" id="text" name="Name"  class="input1"><br>
+                    <label for="email"  >الأيميل:</label><input type="email"  id="email" name="email" class="input1" ><br>
+                    <label for="password"   >كلمة المرور:</label><input type="password" name="password" id="password" class="input1"><br>
+                    <label for="password0">تأكيد كلمة المرور:</label><input type="password"  id="password1" class="input1"><br>
+                    
+                    <label for="select1">أختر دولتك: </label>
+                    <select name="country" id="select1">
+                        <option selected>اليمن</option><option>السعودية</option>
+                        <option>مصر</option><option>الكويت</option>
+                        <option>فلسطين</option><option>لبنان</option>
+                        <option>السودان</option><option>الجزائر</option>
+                        <option>المغرب</option><option>عمان</option>
+                        <option>الأردن</option><option>العراق</option>
+                        <option>سوريا</option><option>الصومال</option>
+                    </select><br>   
+                    <input type="radio"  name="KindOfUser" id="seller"><label for="seller">للبيع</label>
+                    <input type="radio"  name="KindOfUser" id="buier"><label for="buier"   >للشراء</label><br>
+                    <input type="radio" checked name="KindOfUser" id="both"><label for="both">للبيع والشراء</label><br>
+                    <label for="birth"   >تاريخ ميلادك</label><input type="date" name="birth" id="birth"><br>
+                
+                    <input type="checkbox" checked name="agree" id="agree"><label for="agree">أوافق على شروط الموقع</label>
+                    <br><input type="checkbox" name="NotRobot" id="NotRobot"><label for="NotRobot"   >أنا لست روبوت</label>
+                    <input type="checkbox" name="updete" id="updete"><label for="updete"   >أعلامي بالمستجدات</label><br>
+                    
+                    <input type="submit"  value="أرسال">
+                    <input type="reset" value="تنظيف"  >
+                </fieldset>
+            </form>
+       </article>
+   </main>
+   <footer title="this footer is for devlober">
+    <h1 id="About">عن المطور</h1><hr>
+    <p>تمت البرمجة والتطوير من قبل الطالب <span id="name">باسم عبدالرحمن صالح منصر</span></p>
+    <p>طالب في جامعة صنعاء<br> كلية الحاسوب <br>    قسم نظم المعلومات <br>سنة ثانية <br>ترم أول <br>مادة تكنلوجيا الويب</p><hr>
+    <h1>معلومات التواصل</h1>
+    <address>العنوان :د/اليمن م.ح/صنعاء  م.د/همدان  ق/ضروان </address>
+    <address>البريد الألكتروني:www.basmmnsr41@gmail.com</address>
+    <address>رقم الهاتف : 00967777309964</address>
+   </footer>
+</body>
+</html>

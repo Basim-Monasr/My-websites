@@ -1,0 +1,46 @@
+<html>
+<head>
+<style>
+  .like-button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .like-button.active {
+    color: blue;
+  }
+</style>
+<script>
+  function toggleLike(button) {
+    // get the span element that shows the number of likes
+    var span = button.nextElementSibling;
+    // get the current number of likes
+    var likes = parseInt(span.innerHTML);
+    // check if the button is active or not
+    if (button.classList.contains("active")) {
+      // if active, remove the active class and decrease the likes by one
+      button.classList.remove("active");
+      likes--;
+    } else {
+      // if not active, add the active class and increase the likes by one
+      button.classList.add("active");
+      likes++;
+    }
+    // update the span element with the new number of likes
+    span.innerHTML = likes;
+  }
+</script>
+</head>
+<body>
+  <div>
+    <button class="like-button" onclick="toggleLike(this)">👍</button>
+    <span>0</span>
+  </div>
+  <div>
+    <button class="like-button" onclick="toggleLike(this)">👎</button>
+    <span>0</span>
+  </div>
+</body>
+</html>

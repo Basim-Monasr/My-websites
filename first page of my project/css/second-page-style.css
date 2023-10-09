@@ -1,0 +1,44 @@
+#form{
+    background-color: rgb(11, 201, 226);
+    border: 3px solid black;
+    height: 10px;
+    border-radius: 20px;
+}
+#form,input,label{
+    transition: all 1s;
+}
+#form:hover{
+    height: auto;
+
+}
+legend{
+    color: red;
+    font-weight: bolder;
+}
+#buttonSpan{
+    background: #3eff37;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    /* z-index: -1; */
+    /* transition: 0.5s; */
+}
+button:hover #buttonSpan{
+    width: 100%;
+}
+button{
+    position: relative;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border: 2px solid #3eff37;
+    background: transparent;
+    color: #fff;
+    /* cursor: pointer; */
+    overflow: hidden;
+    text-transform: uppercase;
+}

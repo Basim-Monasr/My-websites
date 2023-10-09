@@ -1,0 +1,10 @@
+.like-button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .like-button.active {
+    color: blue;
+  }
