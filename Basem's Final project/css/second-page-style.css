@@ -1,0 +1,118 @@
+body{
+    text-align: center;
+}
+#form{
+    background-color: rgb(11, 201, 226);
+    border: 3px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+form{
+    overflow: hidden;
+}
+legend{
+    color: red;
+    font-weight: bolder;
+}
+button{  
+    width: 150px;
+    height: 50px;
+    border-radius: 25%;
+    margin:20px 30px;
+}
+#About{
+    margin:50px auto ;
+    width: 70%;
+    background-color: aqua ;
+    border: 1px solid black;
+    border-radius: 50px 10px;
+}
+.about{
+	margin-top: 5%;
+	margin:auto;
+	text-align: center;
+	background-color: #656666a7;
+	width: 50%;
+	height: 50%;
+	border-radius: 10%;
+}
+
+.about h1{
+	margin: 5%;
+	font-size: 50px;
+	color: red;
+}
+/* 
+////////////////////
+*/
+
+.btn{
+	padding: 5px;
+	background: #e60a0a9e;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	font-size: 22px;
+	border-radius: 10px;
+}
+
+.popup{
+	width: 400px;
+	background: #c2c2c2e7;
+	border-radius: 6px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%,-50%) scale(0.1);
+	text-align: center;
+	padding: 0 30px 30px;
+	color: #333;
+	visibility: hidden;
+	transition: transform 0.4s,top0.4s;
+}
+
+.open-popup{
+	visibility: visible;
+	top: 75%;
+	transform: translate(-50%,-50%) scale(1);
+}
+
+.popup img {
+	margin-top: -50px;
+	border-radius: 50%;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.popup h2 {
+	font-size: 38px;
+	font-weight: 500;
+	margin: 30px 0 10px ;
+}
+
+.popup button{
+	width: 100%;
+	margin-top: 50px ;
+	padding: 10px 0;
+	color:  #ff0000bb ;
+	border: 0;
+	font-size: 18px;
+	border-radius: 4px;
+	cursor: pointer;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.popup input{
+	width: 90%;
+}
+.popup textarea{
+	width: 90%;
+	height: 100px;
+	border-radius: 5px;
+}
+#button{
+	padding: 0;
+	background: #ff1212cc;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	font-size: 22px;
+	border-radius: 10px;
+}

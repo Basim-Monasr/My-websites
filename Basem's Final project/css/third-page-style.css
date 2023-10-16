@@ -1,0 +1,31 @@
+.section {
+    width: 100%;
+    margin: 20px auto;
+    text-align: start;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: blue;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #cccccc09;
+    border-color: #cccccc00;
+  }
+  
+  span {
+    font-weight: bold;
+  } 
+
+  .section h1{
+    margin: auto;
+  }
+

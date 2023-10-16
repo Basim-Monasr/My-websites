@@ -1,0 +1,50 @@
+/*for the input form*/
+#main.css>.container1
+*{
+    margin: auto;
+    height: auto;
+}
+
+.container1{
+	width: 50%;
+    background-color: rgba(85, 84, 83, 0.539);
+    background-size: 20%;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.container1 input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255, 0, 0, 0.747);
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: vertical;
+    border-radius: 10px;
+    background-color: #ffffff79;
+}
+
+.container1 label{
+    color: white;
+}
+
+#button{
+background-color: rgba(236, 49, 49, 0.756);
+cursor: pointer;
+}
+#massage{
+	width: 100%;
+	height: 50px;
+	background-color: #ffffff79;
+	border: 1px solid rgba(255, 0, 0, 0.747);
+	border-radius: 10px;
+}
+/*for the table*/
+table th{
+    border: 3px solid black;
+    height: 50px;
+	
+}

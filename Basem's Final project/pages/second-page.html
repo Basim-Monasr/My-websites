@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main-style.css" >
+    <link rel="stylesheet" href="../css/second-page-style.css" >
+    <link rel="stylesheet" href="css/fontAwesome.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <nav id="nav" onclick="togglemenu()">
+        <div class="toggle-btm">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    <ul>
+        <li><a href="../index.html">الرئيسية </a></li>
+        <li><a href="second-page.html">تسجيل الدخول</a></li>
+        <li><a href="Third-page.html">تقييمك للموقع</a></li>
+        <li><a href="table.html">table</a></li> 
+    </ul>
+   </nav>
+   <header class="header2">
+    <h1><span class="headerspan">تسجيل</span> الدخول</h1>
+</header>
+   <main class="cmain">
+    <div class="about">
+        <br>
+        <h1>عن المطور</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit veritatis voluptas, ad maxime explicabo repellendus, tempore, sequi ratione pariatur vel laborum quo. Porro officia veritatis quam. Quis repellendus ab harum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, maiores! Ad ut pariatur nihil mollitia, minima praesentium accusantium? Necessitatibus sunt deserunt blanditiis soluta adipisci tempora eveniet voluptas alias suscipit eius!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi inventore labore porro illum nisi voluptatem recusandae sunt architecto deserunt, suscipit nobis placeat, cupiditate accusantium ratione ad asperiores odio eligendi optio?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, aut ab? Odit cumque exercitationem dolorum aut repudiandae eaque natus ipsum quasi, tenetur minima dolorem non quod, cupiditate molestias quae in?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam deserunt dolorem commodi earum, distinctio necessitatibus voluptate enim minus nulla expedita repudiandae numquam sequi ducimus at vero ex ipsam ullam cupiditate?Lorem ipsum, dolor sit amet consectetur adipisicing elit. At facere id perferendis laboriosam accusantium. Soluta ad ipsum aut, voluptatibus velit, alias temporibus animi modi nemo cumque officia quis illum veniam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod recusandae voluptatum tempora neque nostrum sunt quis repellat aut! Accusamus temporibus ullam similique ab et ex libero laboriosam labore. Ducimus, veritatis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur recusandae veniam voluptate magni eum, eveniet cumque unde explicabo minus sed quaerat ab distinctio rerum modi, voluptatibus asperiores soluta mollitia nihil.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore molestias illo ut? Incidunt cumque mollitia voluptatem rerum culpa, dolor magnam vero, hic, officia vel quia neque aut aspernatur consectetur cum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam alias voluptates impedit corporis excepturi repellat nisi ea! Veniam, fugit, dignissimos saepe exercitationem quae laboriosam, reprehenderit deleniti sed qui nam provident!<br/>
+            <div class="container">
+                <button type="submit" class="btn" onclick="openPopup()">login</button><br><br><br>
+                <div class="popup" id="popup">
+                    <form >
+                        <label>الاسم</label><br>
+                        <input type="text"  name="fname"><br>
+            
+                        <label>اللقب</label><br>
+                        <input type="text" name="lname"><br>
+            
+                        <label>البريد الالكتروني</label><br>
+                        <input type="email" name="email"><br>
+                        
+                        <label >تاريخ الميلاد</label><br>
+                        <input type="date" name="age"><br>
+                        <br>
+                        <label >مالحظة</label><br>
+                        <textarea value="massage"></textarea>
+                        <br>
+                        <input type="button" onclick="alert('your information save👍')" value="إرسال" id="button"><br/><br/>
+                        <input type="reset" value="اعادة كتابة" id="button">
+                    </form>
+                    <button type="button" onclick="closePopup()">back</button>
+                </div>
+            </div>
+     </div>
+   </main>
+   <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <p>Copyright &copy; 2020 BasemMunaser</p>
+            </div>
+            <div class="web">
+                <p ><a href="#" >
+                    www.BasemMunaser.con</a></p>
+            </div>
+            <div class="col-md-4">
+                <ul class="social-icons">
+                    <li><a href="https://facebook.com" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com"  target="_blank" class="twitter"> <i class="fa fa-twitter"> </i></a></li>
+                    <li><a href="https://linkedin.com" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://rss.com"      target="_blank" class="rss">     <i class="fa fa-rss">     </i></a></li>
+                    <li><a href="https://dribbble.com" target="_blank" class="dribbble"><i class="fa fa-dribbble"></i></a></li>
+                </ul>
+                <br>
+            </div>
+        </div>
+    </div>
+</footer>
+   <script src="../js/log-in.js"></script>
+   <script src="../js/nav.js" type="text/javascript"></script>
+   <script src="../js/secondpage.js"></script>
+</body>
+</html>
